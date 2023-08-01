@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family:'Ananda Black';
+    src: url('./fonts/anandablack.ttf');
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #EAEAEA;
+}
+.container{
+    display:flex;
+    width:60vw;
+    height:80vh;
+    margin:auto;
+    margin-top:5rem;
+}
+.hero{
+    margin-top:40px;
+    margin-left:25px;
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ), url('./images/test.jpeg');
+    background-size:cover;
+    width:50vw;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top:10rem;
+    border-radius:0 30px 0 30px;
+}
+.hero > h1{
+    color:rgb(255, 255, 255);
+    font-family:'Ananda Black';
+    font-size:48px;
+}
+.hero >p {
+    color: white;
+    padding-top:5px;
+    font-family:'Ananda Black'
+}
+.form{
+    display:flex;
+    margin:50px;
+    width:50vw;
+    padding:45px;
+    flex-direction:column;
+}
+.form > .logo{
+    display:flex;
+    align-items:center;
+    font-family: 'Playfair';
+    color: #2a2a2a;
+}
+.form > .logo > img{
+    width:35px;
+    height:35px;
+}
+.form > .create{
+    padding-top:40px;
+}
+.form > .create > h1{
+    margin-bottom:20px;
+}
+.form > .create > p{
+    font-weight:bold;
+}
+input {
+    font-family:'Playfair';
+    font-size:larger;
+    padding-top:25px;
+    width:15vw;
+    border: none;
+    outline: none;
+    background:#EAEAEA;
+    border-bottom: 1px solid #ccc; /* You can adjust the color and thickness of the outline */
+}
+button.create-account{
+    margin-top:15px;
+    height:2rem;
+    width:9rem;
+    border-radius:5px;
+    color:#EAEAEA;
+    background-color:#2a2a2a;
+}
+p.continue{
+    margin-top:10px;
+    font-family:"Playfair";
+}

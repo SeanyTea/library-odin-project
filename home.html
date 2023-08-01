@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silent Pages Library</title>
+    <script src = "library.js" defer></script>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Roboto:wght@300;400&family=Skranji&family=Sofia+Sans:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <p>
+                Silent Pages
+            </p>
+            <p>Sean Thammakhoune</p>
+        </div>
+        <div class="add-modal" id = "add-modal">
+            <h3>Add Book</h3>
+            <form id="modal-form">
+                <input type="text" name="title" id="title" placeholder = "Title">
+                <input type="text" name="author" id="author" placeholder = "Author">
+                <input type="number" name="pages" id="pages" placeholder = "Pages">
+                <div class="read-check">
+                    <p>Have you read the book?</p>
+                    <input type="checkbox" id = "read">
+                </div>
+                
+            </form>
+            
+            <div id="modal-buttons">
+                <div id="close">
+                    <button id = "close-modal" type = "reset">Close</button>
+                    <button id = "submit-modal">Add book</button>
+                </div>
+                <div id="submit">
+
+                </div>
+            </div>
+        </div>
+        <div class="cards" id="test">
+            <button id='btn'>+ Add Book</button>
+            <div class="books-grid" id="booksGrid">
+            
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
