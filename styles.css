@@ -8,7 +8,7 @@
 }
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #EAEAEA;
+    background-color: #fefcf5;
 }
 .container{
     display:flex;
@@ -71,20 +71,23 @@ body{
 input {
     font-family:'Playfair';
     font-size:larger;
-    padding-top:25px;
+    margin-top:25px;
     width:15vw;
     border: none;
     outline: none;
-    background:#EAEAEA;
-    border-bottom: 1px solid #ccc; /* You can adjust the color and thickness of the outline */
+    background: #fefcf4;
+    color:#1b1c17;
+    border-bottom: 1px solid #1b1c17; /* You can adjust the color and thickness of the outline */
 }
 button.create-account{
     margin-top:15px;
     height:2rem;
     width:9rem;
-    border-radius:5px;
-    color:#EAEAEA;
-    background-color:#2a2a2a;
+    border-radius:10px;
+    border-color:#dee6c5;
+    color:#171e09;
+    background-color:#dee6c5;
+    box-shadow:0px;
 }
 p.continue{
     margin-top:10px;

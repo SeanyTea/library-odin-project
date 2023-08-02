@@ -6,6 +6,7 @@
 .container{
     display:grid;
     grid-template-rows:1fr 10fr;
+    background-color:#fefcf4;
 }
 .nav{
     display:flex;
@@ -35,9 +36,9 @@
     border-radius:8px;
     align-items:center;
     padding:50px;
-    background-color:#546e7a;
+    background-color:#dee6c5;
     animation:fadein .5s;
-    color:white;
+    color:#171e09;
     
 }
 @keyframes fadein {
@@ -50,45 +51,52 @@
 }
 input{
     
-    background-color:#546e7a;
+    background-color:#dee6c5;
     margin:25px;
     
     font-size:larger;
     border: none;
-    border-bottom: 1px solid #ccc; /* You can adjust the color and thickness of the outline */
-    color:#ccc;
+    border-bottom: 1px solid #171e09; /* You can adjust the color and thickness of the outline */
+    color:#171e09;
 }
+
 ::placeholder{
-    color:#ccc;
+    color:#171e09;
+}
+input[type="checkbox"]:checked {
+    background:#4c6707;
 }
 .read-check{
     display:flex;
     align-items:center;
 }
 .close, button{
-    background:white;
+    background:#4c6707;
+    color:#ffffff;
     width:5rem;
     height:2rem;
     margin:20px;
+    border-radius:10px;
 }
 .cards{
     grid-rows:2/3;
     display:flex;
     flex-direction:column;
-    background-color:rgb(222, 196, 186);
+    background-color:#fefcf4;
     align-items:center;
     
 }
 .cards button{
-    background:none;
+    background:#fefcf4;
     border:none;
     font-size: 2rem;
     width:auto;
     height:3rem;
     padding:5px 5px 5px 5px;
+    color:#1b1c17;
 }
 .cards button:hover{
-   background:rgba(187, 164, 154, 0.3);
+   background:#dee6c5;
    border: 1px rgba(0, 0, 0, 0.3) solid;
    padding:5px;
    border-radius:5px;
@@ -109,9 +117,9 @@ input{
     border-radius:8px;
     align-items:center;
     padding:50px;
-    background-color:#546e7a;
+    background-color:#bcece4;
+    color:#00201d;
     animation:fadein .5s;
-    color:white;
     gap:10px;
     font-size:larger;
 }
@@ -126,10 +134,10 @@ input{
     border-radius:5px;
 }
 #remove-button:hover{
-    background:#9fff9c;;
+    background:#ba1a1a;
 }
 button.read-button{
-    background:#ff7070;
+    background:#ffdad6;
     border:none;
     font-size: 1rem;
     width:auto;
